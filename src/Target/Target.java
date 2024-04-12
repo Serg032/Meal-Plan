@@ -1,4 +1,4 @@
-package CaloriesCalculator;
+package Target;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package CaloriesCalculator;
+package Target;
 
 public enum TargetChoice {
     LOSE_WEIGHT,
