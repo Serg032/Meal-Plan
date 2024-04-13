@@ -6,8 +6,8 @@ public class ActivityIndex {
     private float index;
     private ActivityChoice activityChoice;
 
-    public ActivityIndex(float index) {
-        this.index = index;
+    public ActivityIndex() {
+        this.askUserActivityIndex();
     }
 
     public float getIndex() {
@@ -64,7 +64,7 @@ public class ActivityIndex {
     private void giveUserActivityIndexChoicesAndSetActivityIndex(ActivityChoice activityChoice, Scanner scanner){
         switch (activityChoice){
             case SEDENTARY:
-                System.out.println("Your activity index is 1.3 - 1.6");
+                System.out.println("Your activity index is 1.3 - 1.6. Choose please:");
                 float index = scanner.nextFloat();
                 while (index < 1.3 || index > 1.6) {
                     System.out.println("Invalid index. Please enter a number between 1.3 and 1.6:");
@@ -73,7 +73,7 @@ public class ActivityIndex {
                 this.setIndex(index);
                 break;
                 case LIGHTLY_ACTIVE:
-                System.out.println("Your activity index is 1.5 - 1.8");
+                System.out.println("Your activity index is 1.5 - 1.8. Choose please:");
                 index = scanner.nextFloat();
                 while (index < 1.5 || index > 1.8) {
                     System.out.println("Invalid index. Please enter a number between 1.5 and 1.8:");
@@ -82,7 +82,7 @@ public class ActivityIndex {
                 this.setIndex(index);
                 break;
                 case VERY_ACTIVE:
-                System.out.println("Your activity index is 1.7 - 2");
+                System.out.println("Your activity index is 1.7 - 2. Choose please:");
                 index = scanner.nextFloat();
                 while (index < 1.7 || index > 2) {
                     System.out.println("Invalid index. Please enter a number between 1.7 and 2:");
@@ -91,7 +91,7 @@ public class ActivityIndex {
                 this.setIndex(index);
                 break;
                 case SUPER_ACTIVE:
-                System.out.println("Your activity index is 1.9 - 2.2");
+                System.out.println("Your activity index is 1.9 - 2.2. Choose please:");
                 index = scanner.nextFloat();
                 while (index < 1.9 || index > 2.2) {
                     System.out.println("Invalid index. Please enter a number between 1.9 and 2.2:");

@@ -2,13 +2,14 @@ package BasalMetabolism;
 
 import java.util.Scanner;
 
-public class BasalMetabolismCalculator {
+public class BasalMetabolism {
 
     private float basalMetabolism;
     private float weight;
 
-    public BasalMetabolismCalculator(){
+    public BasalMetabolism(){
         this.askUserWeight();
+        this.calculateBasalMetabolism();
     }
 
     public float getBasalMetabolism() {
@@ -35,17 +36,6 @@ public class BasalMetabolismCalculator {
     }
 
     private void calculateBasalMetabolism(){
-        // Peso x 22
-        /*
-        *  Valores segun actividad
-            - Sedentario: 1,3 - 1,6
-            - Algo activo 1,5 - 1-8
-            - Activo 1,7 - 2
-            - Muy Activo 1,9 - 2,2
-
-            - Mutiplicacion de MB por valor de actividad
-            - 1914 x 1,6 (algo activo) = 3062 Kal de gasto al dia
-	    * */
         float basalMetabolism = 22 * this.getWeight();
         this.setBasalMetabolism(basalMetabolism);
     }
