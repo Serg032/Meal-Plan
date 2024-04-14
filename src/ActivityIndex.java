@@ -1,5 +1,3 @@
-package BasalMetabolism.ActivityIndex;
-
 import java.util.Scanner;
 
 public class ActivityIndex {

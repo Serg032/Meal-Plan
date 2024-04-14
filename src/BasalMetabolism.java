@@ -1,5 +1,3 @@
-package BasalMetabolism;
-
 import java.util.Scanner;
 
 public class BasalMetabolism {

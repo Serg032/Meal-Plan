@@ -1,8 +1,3 @@
-package CaloriesTarget;
-
-import BasalMetabolismMultipliedByActivity.BasalMetabolismMultipliedByActivity;
-import Target.Target;
-
 import java.util.Scanner;
 
 public class CaloriesTarget {

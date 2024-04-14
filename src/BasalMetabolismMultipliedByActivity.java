@@ -1,8 +1,3 @@
-package BasalMetabolismMultipliedByActivity;
-
-import BasalMetabolism.ActivityIndex.ActivityIndex;
-import BasalMetabolism.BasalMetabolism;
-
 public class BasalMetabolismMultipliedByActivity {
     private float basalMetabolismMultipliedByActivity;
     private ActivityIndex activityIndex;

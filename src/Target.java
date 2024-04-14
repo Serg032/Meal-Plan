@@ -1,5 +1,3 @@
-package Target;
-
 import java.util.Scanner;
 
 public class Target {

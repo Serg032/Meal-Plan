@@ -1,5 +1,3 @@
-package BasalMetabolism.ActivityIndex;
-
 public enum ActivityChoice {
     SEDENTARY,
     LIGHTLY_ACTIVE,
